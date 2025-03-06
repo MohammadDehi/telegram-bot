@@ -2,8 +2,8 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")  # دریافت توکن از متغیرهای محیطی
-ADMIN_ID = int(os.getenv("ADMIN_ID"))  # دریافت آیدی مدیر از متغیرهای محیطی
+TOKEN = "7323889209:AAHTEba0jo8ryl3y7SkBZY-tst_s2JlSE48"
+ADMIN_ID = 5763139251
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("سلام! پیام خود را ارسال کنید.")
